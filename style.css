@@ -42,7 +42,7 @@ h1 {
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  animation: scroll 10s linear infinite;
+  animation: scroll 13s linear infinite;
 }
 
 .scroll-image {

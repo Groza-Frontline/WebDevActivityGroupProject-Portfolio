@@ -36,13 +36,27 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  color: green;
+  font-size: 30px;
+  padding-top-right-bottom-left: 50px;
+  background-color: #9acd32;
+}
+
+p1 {
+  font-size: 20px;
+  color: #556
+  margin: 30px;
+  padding-top-right-bottom-left: 40px
+}
+
 .scroll-container {
   width: 300%;
   height: 100vh;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  animation: scroll 13s linear infinite;
+  animation: scroll 12s linear infinite;
 }
 
 .scroll-image {
@@ -60,20 +74,7 @@ h1 {
   }
 }
 
-h2{
-  color: green;
-  font-size: 30px;
-  padding-top-right-bottom-left: 50px;
-}
-
-p1{
-  font-size: 20px;
-  color: #556
-  margin: 30px;
-  padding-top-right-bottom-left: 40px
-}
-
-footer{
+footer {
   padding-top-right-bottom-left:50px;
   color: black;
   background-color: lightblue;

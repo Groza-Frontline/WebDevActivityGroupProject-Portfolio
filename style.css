@@ -1,0 +1,81 @@
+/* nav-menu to be in line and organized */
+.nav-menu {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 10;
+  background-color: #9acd32;
+  font-size: 20px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: indigo;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: blue;
+}  
+/* title of page with featured improvements */
+h1 {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color:black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.scroll-container {
+  width: 300%;
+  height: 100vh;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: scroll 10s linear infinite;
+}
+
+.scroll-image {
+  width: 33.33%;
+  height: auto;
+  display: inline-block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h2{
+  color: green;
+  font-size: 30px;
+  padding-top-right-bottom-left: 50px;
+}
+
+p1{
+  font-size: 20px;
+  color: #556
+  margin: 30px;
+  padding-top-right-bottom-left: 40px
+}
+
+footer{
+  padding-top-right-bottom-left:50px;
+  color: black;
+  background-color: lightblue;
+  text-align: center;
+}

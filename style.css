@@ -9,6 +9,7 @@
   background-color: #9acd32;
   font-size: 20px;
   text-align: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 li {
@@ -19,6 +20,7 @@ li {
 li a {
   text-decoration: none;
   color: indigo;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 li a:hover {
@@ -39,15 +41,23 @@ h1 {
 h2 {
   color: green;
   font-size: 30px;
-  padding-top-right-bottom-left: 50px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
   background-color: #9acd32;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 p1 {
   font-size: 20px;
-  color: #556
+  color: #556;
   margin: 30px;
-  padding-top-right-bottom-left: 40px
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .scroll-container {
@@ -75,7 +85,10 @@ p1 {
 }
 
 footer {
-  padding-top-right-bottom-left:50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
   color: black;
   background-color: lightblue;
   text-align: center;

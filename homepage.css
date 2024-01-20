@@ -16,23 +16,26 @@ body {
   text-align: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* nav-bar list */
 li {
   display: inline;
   margin-right: 25px;
 }
 
+/* nav-bar text */
 li a {
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* nav-bar hovering */
 li a:hover {
   text-decoration: none;
   color: blue;
 }  
-/* title of page with featured improvements */
+
+/* header 1 title */
 h1 {
   padding-top: 20px;
   padding-right: 30px;
@@ -43,6 +46,7 @@ h1 {
   font-size: 60px;
 }
 
+/* header 2 */
 h2 {
   color: whitesmoke;
   font-size: 25px;
@@ -54,6 +58,7 @@ h2 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* paragraph 1 */
 p1 {
   font-size: 20px;
   color: whitesmoke;
@@ -61,6 +66,7 @@ p1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* image-container */
 .scroll-container {
   width: 300%;
   height: 100vh;
@@ -70,16 +76,18 @@ p1 {
   animation: scroll 12s linear infinite;
 }
 
+/* background-images */
 .background-image {
   position: absolute;
 }
-
+/* scrolling pictures */
 .scroll-image {
   width: 33.33%;
   height: 100vh;
   display: inline-block;
 }
 
+/* animation of scrolling-images */
 @keyframes scroll {
   0% {
     transform: translateX(100%);
@@ -89,6 +97,7 @@ p1 {
   }
 }
 
+/* header 3 */
 h3 {
   font-size: 20px;
   color: whitesmoke;
@@ -100,10 +109,12 @@ h3 {
   padding-left: 50px;
 }
 
+/* games-images block */
 .games-block{
   text-align: center;
 }
 
+/* games-images block sizing */
 .games1, 
 .games2, 
 .games3 {
@@ -114,6 +125,7 @@ h3 {
   width: 30%;
 }
 
+/* flipcards animation */
 .flip-container {
   perspective: 1000px;
   width: 200px; /* Adjust the container width as needed */
@@ -141,6 +153,7 @@ h3 {
   transform: rotateY(180deg);
 }
 
+/* footer sizing */
 footer {
   padding-top: 10px;
   padding-right: 20px;

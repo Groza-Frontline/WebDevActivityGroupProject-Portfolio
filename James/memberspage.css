@@ -17,33 +17,35 @@ body {
   text-align: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* nav-menu-list order*/
 li {
   display: inline;
   margin-right: 25px;
 }
-
+/* nav-menu-list-style */
 li a {
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* nav-menu-lis-hover */
 li a:hover {
   text-decoration: none;
   color: blue;
 }  
+/* header-style */
 header {
   background-color: #7b7474; 
   padding: -5px;
   text-align: center;
   color: white;
 }
-
+/* header h1-style */
 header h1 {
   margin: 0;
 }
 
-
+/* animation */
 @keyframes colorChange {
   0% {
     color: #ffffff;
@@ -55,7 +57,7 @@ header h1 {
     color: #ffffff;
   }
 }
-
+/* div class member order  */
 .themembers{
   font-size: 50px;
   display: flex;
@@ -67,9 +69,7 @@ header h1 {
   animation: colorChange 3s infinite; /* Adjust the duration as needed */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
-
-
+/* white rectangle style */
 .white-rectangle {
   width: 92%; 
   height: 206px; 
@@ -85,7 +85,7 @@ header h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
   }
-
+/* white rectangle style1 */
 .white-rectangle1 {
 width: 90%; /* Set width */
 height: 440px; /* Set height */
@@ -98,7 +98,7 @@ transform: translate(-50%, -50%);
 border-radius: 10px; 
 padding-left: 10px;
 }
-
+/* for: div james style */
 .james{
   width: 12%; /* Set width */
   height: 26%;
@@ -111,7 +111,7 @@ padding-left: 10px;
   animation: slideAnimation 2s infinite alternate;
   border-radius: 50%; 
   }
-
+/* slide-animation */
   @keyframes slideAnimation {
     0% {
       transform: translateX(0);
@@ -121,7 +121,7 @@ padding-left: 10px;
     }
   }
 
-
+/* for: div matthew style */
 .matthew{
   width: 12%; /* Set width */
   height: 26%; /* Set height */
@@ -134,7 +134,7 @@ padding-left: 10px;
   animation: slideAnimation 2s infinite alternate;
   border-radius: 50%; 
   }
-
+/* slide-animation 2 */
   @keyframes slideAnimation {
     0% {
       transform: translateX(0);
@@ -143,7 +143,7 @@ padding-left: 10px;
       transform: translateX(70px); /* Adjust the distance you want the picture to move */
     }
   }
-
+/* for: div justin style */
   .justin{
       width: 12%; /* Set width */
       height: 25%; /* Set height */
@@ -155,10 +155,9 @@ padding-left: 10px;
       border-radius: 50%; 
       padding-left: 10px;
     animation: slideAnimation 2s infinite alternate;
-   
     }
 
-
+/* quotes order and style */
   .justinquote{
     position:absolute;
     top: 50%;
@@ -183,6 +182,7 @@ padding-left: 10px;
 
 }
 
+/* metallic moving background */
     .binary2{
     width: 20%; /* Set width */
     height: 50%; /* Set height */
@@ -195,6 +195,7 @@ padding-left: 10px;
     z-index: -1
 }
 
+/* div members */
 .membrs{
 width: 100%; 
 position: absolute;
@@ -204,7 +205,7 @@ z-index: -1;
 }
 
 
-
+/* metal moving background style */
 .metalbg {
   position: fixed; /* Use 'fixed' to make it relative to the viewport */
   top: 10%;
@@ -218,7 +219,7 @@ z-index: -1;
   z-index: -1;
 }
 
-
+/* media screen container style */
 @media (max-width: 768px) {
   .white-rectangle, .white-rectangle1, .james, .matthew, .justin, .codegif, .binary2, .membrs, .gif-container {
     width: 100%; /* Adjust styles for smaller screens */

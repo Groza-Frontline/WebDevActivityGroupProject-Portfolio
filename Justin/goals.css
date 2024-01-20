@@ -17,23 +17,24 @@ body {
   text-align: right;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* nav-menu-list order */
 li {
   display: inline;
   margin-right: 15px;
 }
-
+/* nav-menu-list style */
 li a {
   text-decoration: none;
   color: whitesmoke;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* nav-menu-list hover */
 li a:hover {
   text-decoration: none;
   color: blue;
 }
 
+/* header-h1-style */
 h1 {
   background-color: #7b7474; /* Blue color for the header */
   padding-top: 50px;
@@ -45,7 +46,7 @@ h1 {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-
+/* header-h2-style */
 h2 {
   padding-top: 20px;
   padding-right: 30px;
@@ -55,7 +56,7 @@ h2 {
   text-align: center;
   font-size: 25px;
 }
-
+/* header-h3-style */
 h3 {
     padding-top: 5px;
     padding-right: 30px;
@@ -65,23 +66,23 @@ h3 {
     text-align: center;
     font-size: 30px;
   }
-
+/* header-h4-style */
 h4 {
   color: whitesmoke;
   text-align: center;
   font-size: 30px;
 }
-
+/* div class: personal goals images position */
 .Personal-Goals {
   text-align: center;
 }
-
+/* header-h5-style */
 h5 {
   color: whitesmoke;
   text-align: center;
   font-size: 30px;
 }
-
+/* div: Vision-Board images alignment */
 .Vision-Boards {
   text-align: center;
 }

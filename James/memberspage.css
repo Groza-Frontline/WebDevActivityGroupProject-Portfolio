@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #424242;
+  overflow: hidden;
+}
+/* nav-menu to be in line and organized */
+.nav-menu {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 10;
+  background-color: #1a001a;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+li {
+  display: inline;
+  margin-right: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: blue;
+}  
+header {
+  background-color: #7b7474; 
+  padding: -5px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+.themembers{
+  font-size: 50px;
+  display: flex;
+  font-family: 'Georgia', serif;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  animation: colorChange 3s infinite; /* Adjust the duration as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.white-rectangle {
+  width: 92%; 
+  height: 206px; 
+  background-color: #545454; 
+  border: 0px solid #ffffff; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px; 
+  padding-left: 10px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  }
+
+.white-rectangle1 {
+width: 90%; /* Set width */
+height: 440px; /* Set height */
+background-color: #a5d55d; /* White background color */
+border: 0px solid #ffffff; 
+position: absolute;
+top: 85%;
+left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 10px; 
+padding-left: 10px;
+}
+
+.james{
+  width: 12%; /* Set width */
+  height: 26%;
+  border: 0px solid #ffffff; 
+  position: absolute;
+  top: 37%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  padding-left: 10px;
+  animation: slideAnimation 2s infinite alternate;
+  border-radius: 50%; 
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(70px); /* Adjust the distance you want the picture to move */
+    }
+  }
+
+
+.matthew{
+  width: 12%; /* Set width */
+  height: 26%; /* Set height */
+  border: 0px solid #ffffff;
+  position: absolute;
+  top: 37%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  padding-left: 10px;
+  animation: slideAnimation 2s infinite alternate;
+  border-radius: 50%; 
+  }
+
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(70px); /* Adjust the distance you want the picture to move */
+    }
+  }
+
+  .justin{
+      width: 12%; /* Set width */
+      height: 25%; /* Set height */
+      border: 0px solid #ffffff; 
+      position: absolute;
+      top: 37%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%; 
+      padding-left: 10px;
+    animation: slideAnimation 2s infinite alternate;
+   
+    }
+
+
+  .justinquote{
+    position:absolute;
+    top: 50%;
+    left: 37%;
+    font-family: 'Dancing Script', cursive;
+    
+  }
+
+  .matthewquote{
+    position:absolute;
+    top: 50%;
+    left: 20%;
+    font-family: 'Dancing Script', cursive;
+    
+  }
+
+.joshquote{
+  position:absolute;
+  top: 50%;
+  left: 2%;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+    .binary2{
+    width: 20%; /* Set width */
+    height: 50%; /* Set height */
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; 
+    padding-left: 10px;
+    z-index: -1
+}
+
+.membrs{
+width: 100%; 
+position: absolute;
+top: -30%;
+left: 10%;
+z-index: -1;
+}
+
+
+
+.metalbg {
+  position: fixed; /* Use 'fixed' to make it relative to the viewport */
+  top: 10%;
+  width: 150%; /* Adjusted to 100% to fill the entire width of the screen */
+  left:-5%;
+  height: 90%;
+  overflow: hidden; /* Ensure the GIF doesn't overflow the container */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content vertically */
+  z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+  .white-rectangle, .white-rectangle1, .james, .matthew, .justin, .codegif, .binary2, .membrs, .gif-container {
+    width: 100%; /* Adjust styles for smaller screens */
+    left: 0;
+    margin: 10px; /* Add margin for better visibility on smaller screens */
+  }
+}

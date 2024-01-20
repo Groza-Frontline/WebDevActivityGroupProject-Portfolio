@@ -1,0 +1,152 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  background-color: #260026;
+}
+/* nav-menu to be in line and organized */
+.nav-menu {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 10;
+  background-color: #1a001a;
+  font-size: 20px;
+  text-align: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  display: inline;
+  margin-right: 25px;
+}
+
+li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: blue;
+}  
+/* title of page with featured improvements */
+h1 {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-color: #1a001a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p1 {
+  font-size: 20px;
+  color: whitesmoke;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.scroll-container {
+  width: 300%;
+  height: 100vh;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: scroll 12s linear infinite;
+}
+
+.background-image {
+  position: absolute;
+}
+
+.scroll-image {
+  width: 33.33%;
+  height: 100vh;
+  display: inline-block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+h3 {
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+.games-block{
+  text-align: center;
+}
+
+.games1, 
+.games2, 
+.games3 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.flip-container {
+  perspective: 1000px;
+  width: 200px; /* Adjust the container width as needed */
+  height: 200px; /* Adjust the container height as needed */
+}
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+footer {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  color: whitesmoke;
+  background-color: grey;
+  text-align: center;
+}

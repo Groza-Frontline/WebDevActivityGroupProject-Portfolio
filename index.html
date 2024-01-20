@@ -4,35 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width, inital-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="homepage.css">
     <title>WebDev Group Project</title>
-    <!--define style for the body-->
-    <style>
-      body {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-        color: black
-      }
-    </style>
   </head>
   <body>
     <header>
       <!--Define ul class with specific source-->
       <ul class="nav-menu">
-        <li><a href="https://www.msn.com/en-ph/news/other/russia-calls-ukraine-peace-meetings-pointless-says-plan-can-t-succeed/ar-AA1n5mAM?ocid=msedgntp&pc=HCTS&cvid=d9b7d724cdf7467280143b37cfc17c7f&ei=14">Members</a></li>
-        <li><a href="https://www.msn.com/en-ph/news/other/france-to-deliver-40-more-long-range-missiles-to-ukraine-macron/vi-AA1n6aTe?ocid=msedgntp&pc=HCTS&cvid=0fbc8dc67250491084478a6a689085fc&ei=11">Goals</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="James/MembersPage.html">Members</a></li>
+        <li><a href="Justin/goals.html">Goals</a></li>
       </ul>
     <h1>
       Just Jam, Chris!
     </h1>
-      <h2>Welcome to Justin, James and Christopher's Page</h2>
+      <h2>Welcome to Justin, James and Christopher's Page!</h2>
         <p1>Good day gamer weebs! We are senior high school students from CIIT Philippines. As future programmers, we uphold CIIT's core values: Community, Integrity, Innovation and Teamwork. We all love playing computer games and watching anime on Netflix. When you say "chicken", then we'll say "NUGGETS"! Feel free to explore the page to know more about us!</p1><br><br><br>
-      <!--Scroll is used to move the 3 pictures automatically/in loop--> 
+    </header>
+    <main>
+      <!--Background image of the scrolling pictures-->
+      <div class="background-image">
+        <img src="CIIT.jpg" alt="School" style="width:1450px; height:550px;">
+      </div>
+      <!--Scroll is used to move the 3 pictures automatically/in loop-->
       <div class="scroll-container">
         <img src="Justin.jpg" alt="Magalona" class="scroll-image" style="width:350px; height:550px;">
         <img src="James.jpg" alt="Salcedo" class="scroll-image" style="width:450px; height:550px;">
         <img src="Matthew.jpg" alt="Moulic" class="scroll-image" style="width:450px; height:550px;">
       </div>
-    </header>
+          <h3>Guess which member likes which game? Hover on the pic to find out!</h3>
+
+      <div class="games-block">
+        <div class="games1">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="Valorante.jpg" alt="ValorantPic" style="width:310px; height:200px;">
+              </div>
+              <div class="back">
+                <img src="james-answer.jpg" alt="james Back Picture" style="width:310px; height:200px;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="games2">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="Project Nexus.jpg" alt="Nexus Pic" style="width:310px; height:200px;">
+              </div>
+              <div class="back">
+                <img src="matthew-answer.jpg" alt="matthew Back Picture" style="width:310px; height:200px;">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="games3">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                <img src="Pokemon.jpg" alt="PokemonPic" style="width:310px; height:200px;">
+              </div>
+              <div class="back">
+                <img src="justin-answer.jpg" alt="justin Back Picture" style="width:310px; height:200px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </main>
     <footer>
       All rights reserved. 2024
     </footer>

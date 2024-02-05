@@ -1,0 +1,60 @@
+html{
+  display: block;
+}
+
+header{
+  background-color: #6f5c44;
+  color: whitesmoke;
+  font-family: "Lucida Console", "Courier New";
+  padding: 20px;
+}
+
+header p{
+  text-align: center;
+  line-height: 0;
+}
+
+hr{
+  border-top: 1px solid black;
+}
+
+body{
+  display: block;
+  font-size: 20px;
+  margin: 70px;
+  background-color: antiquewhite;
+}
+
+h1{
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2{
+  font-weight: bold;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+footer{
+  display: block;
+}

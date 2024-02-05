@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.class{
+  color: whitesmoke;
+  font-size: 16px;;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+  background-color:goldenrod
+}
+h2{
+  background-color: darkgoldenrod;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+h3{
+  background-color: darkgoldenrod;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+h4{
+  background-color: darkgoldenrod;
+  margin-left: 700px;
+  margin-right: 700px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 23px;
+  border-radius: 20px;
+}
+p{
+  background-color: gold;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+}
+a {
+color: whitesmoke;
+font-size: 16px;;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

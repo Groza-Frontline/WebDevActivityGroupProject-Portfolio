@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+
+
+
+header {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Georgia', serif;
+    border: 3px solid #000000;
+
+}
+
+header h1 {
+    margin: 0;
+}
+/* Styles for the white rectangle */
+.white-rectangle {
+    width: 90%; /* Set width */
+    height: 100px; /* Set height */
+    background-color: #615c5c ; /* White background color */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px; 
+    padding-left: 10px;
+    border: 3px solid #4d4242; /* You can change the color and width as needed */
+    }
+
+/* animation */
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #000000;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+.white-rectangle1 {
+  width: 70%; /* Set width */
+  height: 300px; /* Set height */
+  background-color: #7a7a7a; /* White background color */
+  border: 0px solid #ffffff; 
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px; 
+  padding-left: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+.bggif{
+
+  position: fixed; /* Use 'fixed' to make it relative to the viewport */
+  top: 10%;
+  width: 140%; /* Adjusted to 100% to fill the entire width of the screen */
+  left:-5%;
+  height: 90%;
+  overflow: hidden; /* Ensure the GIF doesn't overflow the container */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the content vertically */
+  z-index: -1;
+}
+
+
+.secndtext{
+ color: white;  
+font-family: 'Georgia', serif;
+ font-size: 25px;
+}
+
+.email{
+  position: absolute;
+  color: white;  
+  font-size: 15px;
+  left: 2%;
+  top: 45px;
+  font-family: 'Georgia', serif;
+}
+
+.number{
+  position: absolute;
+  color: white;  
+  font-size: 15px;
+  left: 30%;
+  top: 45px;
+  font-family: 'Georgia', serif;
+}
+
+.fblink{
+  position: absolute;
+  color: #fafafa;  
+  font-size: 15px;
+  left: 60%;
+  top: 45px;
+  font-family: 'Georgia', serif;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.profile{
+  position: absolute;
+  width: 7%;
+  right: 1cm;
+  top:2vh;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.edu{
+  position: absolute;
+   color: #fafafa;  
+   right: 70%;
+}
+
+.ans1{
+  position: absolute;
+   color: #fafafa;  
+   right: 63%;
+   top: 20%;
+   font-family: 'Georgia', serif;
+   font-size: 15px;
+}
+
+.ans2{
+  position: absolute;
+   color: #fafafa;  
+   right: 73%;
+   top: 30%;
+   font-family: 'Georgia', serif;
+   font-size: 15px;
+}
+.ans3{
+  position: absolute;
+   color: #fafafa;  
+   right: 74.5%;
+   top: 40%;
+   font-family: 'Georgia', serif;
+   font-size: 15px;
+}
+.ans4{
+  position: absolute;
+   color: #fafafa;  
+   right: 73%;
+   top: 50%;
+   font-family: 'Georgia', serif;
+   font-size: 15px;
+}
+
+.click{
+  position: absolute;
+  color: #fafafa;  
+  font-size: 10px;
+  left: 60%;
+  top: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.trgt{
+   position: absolute;
+   color: #fafafa;  
+   right: 40%;
+  }
+
+.ans5{
+  position: absolute;
+  color: #fafafa;  
+  right: 40%;
+  top: 20%;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+
+}
+
+.ans6{
+  position: absolute;
+  color: #fafafa;  
+  right: 35%;
+  top: 30%;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+
+}
+
+.ans7{
+  position: absolute;
+  color: #fafafa;  
+  right: 37%;
+  top: 40%;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+
+}
+
+.ans8{
+  position: absolute;
+  color: #fafafa;  
+  right: 41%;
+  top: 45%;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+
+}
+
+
+.hobbies{
+
+  position: absolute;
+  color: #fafafa;  
+  right: 10%;
+}
+
+.ans9{
+  position: absolute;
+  color: #fafafa;  
+  right: 8%;
+  top: 20%;
+}
+.ans10{
+  position: absolute;
+  color: #fafafa;  
+  right: 10.5%;
+  top: 30%;
+}

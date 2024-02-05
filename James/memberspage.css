@@ -85,19 +85,12 @@ header h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
   }
-/* white rectangle style1 */
-.white-rectangle1 {
-width: 90%; /* Set width */
-height: 440px; /* Set height */
-background-color: #a5d55d; /* White background color */
-border: 0px solid #ffffff; 
-position: absolute;
-top: 85%;
-left: 50%;
-transform: translate(-50%, -50%);
-border-radius: 10px; 
-padding-left: 10px;
+
+p1 a {
+  text-decoration: none;
+  color: whitesmoke;
 }
+
 /* for: div james style */
 .james{
   width: 12%; /* Set width */
@@ -226,4 +219,25 @@ z-index: -1;
     left: 0;
     margin: 10px; /* Add margin for better visibility on smaller screens */
   }
+}
+.signinJustin {
+  position: absolute;
+  top: 54%;
+  left: 39%;
+  font-family: 'Dancing Script', cursive;
+  color: whitesmoke
+}
+.signinJames {
+  position:absolute;
+  top: 54%;
+  left: 7%;
+  font-family: 'Dancing Script', cursive;
+  color: whitesmoke
+}
+.signinMatthew {
+  position:absolute;
+  top: 54%;
+  left: 23%;
+  font-family: 'Dancing Script', cursive;
+  color: whitesmoke
 }

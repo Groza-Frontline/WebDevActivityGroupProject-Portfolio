@@ -13,14 +13,16 @@
     <div class="container" style="position: absolute;">
         <form id="loginForm" onsubmit="validateForm(); return false;">
             <h2 class="logintxt">Login</h2>
+          <!-- USERNAME INPUT -->
             <label for="username">Username:</label>
             <input type="text" placeholder="Enter username" id="username" name="username" required>
-
+          <!-- PASSWORD INPUT -->
             <label for="password">Password:</label>
             <input type="password" placeholder="Enter password" id="password" name="password" required>
-
+            <!-- LOGIN BUTTON -->
             <button type="submit">Login</button>
         </form>
+      <!-- ERROR MESSAGE -->
       <div id="error-message"></div>
     </div>
 

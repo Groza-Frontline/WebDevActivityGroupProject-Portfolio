@@ -1,3 +1,4 @@
+/*body for SignIn webpage*/
 body {
     font-family: Arial, sans-serif;
     background-image: url(geogif2.gif);
@@ -12,18 +13,14 @@ body {
     overflow: hidden;
 }
 
+/*logintxt with class for SignIn webpage*/
 .logintxt{
   color: whitesmoke;
   font-family: 'Georgia', serif;
   font-size: 35px;
 }
 
-/*.loginForm{
-  color: whitesmoke;
-  font-family: 'Georgia', serif;
-  font-size: 35px;
-  position: center;
-}*/
+/*background picture with class for SignInp webpage*/
 .geogif2{
   position: absolute;
   z-index: -1;
@@ -32,6 +29,7 @@ body {
   
 }
 
+/*container(for background image) with class for SignIn webpage*/
 .container {
     background-color: #5c5c5c;
     padding: 100px;
@@ -39,30 +37,31 @@ body {
     border-radius: 8px;
 
 }
-
+/*positon of the form for SignIn webpage*/
 form {
     display: flex;
     flex-direction: column;
     position: center;
 }
 
+/*label for SignIn webpage*/
 label {
     margin-bottom: 8px;
 }
-
+/*input for SignIn webpage*/
 input {
     padding: 10px;
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
+/*anchor for SignIn webpage*/
 a {
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-
+/* Sign in button */
 button {
     padding: 10px;
     background-color: #4caf50;
@@ -71,7 +70,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
+/* Sign in button position */
 button:hover {
     background-color: #45a049;
 }

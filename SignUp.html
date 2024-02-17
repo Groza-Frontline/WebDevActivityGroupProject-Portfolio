@@ -12,31 +12,33 @@
     <form id="signupForm">
         <img src="geogif2.gif" alt="geonature" class="background-picture">
         <h2>Sign Up</h2>
+       <!--USERNAME INPUT -->
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
-
+      <!--PASSWORD INPUT -->
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-
+      <!--CONFIRM PASSWORD INPUT -->
         <label for="confirmPassword">Confirm Password:</label>
         <input type="password" id="confirmPassword" name="confirmPassword" required>
-
+      <!--YEAR LEVEL INPUT -->
         <label for="yearLevel">Year Level:</label>
         <input type="text" id="yearLevel" name="yearLevel" required>
-
+      <!--FAVORITE FOOD INPUT -->
         <label for="favoriteFood">Favorite Food:</label>
         <input type="text" id="favoriteFood" name="favoriteFood" required>
-
+      <!--FAVORITE COLOR INPUT -->
         <label for="favoriteColor">Favorite Color:</label>
         <input type="text" id="favoriteColor" name="favoriteColor" required>
-
-        
+      
+        <!--SIGN UP BUTTON -->
         <button type="button" id="signupButton" onclick="signup()">Sign Up</button>
-
+        <!-- ERROR MESSAGE -->
         <div id="error-message"></div>
     </form>
 </div>
 
+<!-- SIGN UP SCRIPT -->
 <script src="SignUp.js"></script>
 </body>
 </html>

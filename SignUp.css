@@ -1,3 +1,4 @@
+/*body for SignUp webpage*/
 body {
     font-family: Arial, sans-serif;
     background-color: #3e3d3e;
@@ -9,19 +10,14 @@ body {
     overflow: hidden;
 }
 
+/*logintxt with class for SignUp webpage*/
 .logintxt{
   color: whitesmoke;
   font-family: 'Georgia', serif;
   font-size: 35px;
 }
 
-/*.loginForm{
-  color: whitesmoke;
-  font-family: 'Georgia', serif;
-  font-size: 35px;
-  position: center;
-}*/
-
+/*background picture for SignUp webpage*/
 .geonature {
   position:absolute;
   width: 100%;
@@ -30,6 +26,7 @@ body {
 
 }
 
+/*container with class for SignUp webpage*/
 .container {
     background-color: #5c5c5c;
     padding: 100px;
@@ -38,16 +35,19 @@ body {
 
 }
 
+/*form for SignUp webpage*/
 form {
     display: flex;
     flex-direction: column;
     position: center;
 }
 
+/*label for SignUp webpage*/
 label {
     margin-bottom: 8px;
 }
 
+/*input for SignUp webpage*/
 input {
     padding: 10px;
     margin-bottom: 16px;
@@ -55,12 +55,13 @@ input {
     border-radius: 4px;
 }
 
+/*anchor for SignUp webpage*/
 a {
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
-
+/* Sign up button */
 button {
     padding: 10px;
     background-color: #4caf50;
@@ -69,7 +70,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
+/* Sign up button position */
 button:hover {
     background-color: #45a049;
 }

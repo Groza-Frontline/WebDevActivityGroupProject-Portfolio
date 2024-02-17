@@ -2,6 +2,7 @@ var users = [
     { username: 'justin', password: 'yip' },
     { username: 'james', password: 'sal' },
     { username: 'matthew', password: 'rus' },
+    { username: 'Lorna', password: 'tea'},
 ];
 
 function validateForm() {

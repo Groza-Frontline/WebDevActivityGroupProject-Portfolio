@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <title>Signup Page</title>
+</head>
+<body>
+
+<div class="container">
+    <form id="signupForm">
+        <img src="geogif2.gif" alt="geonature" class="background-picture">
+        <h2>Sign Up</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <label for="yearLevel">Year Level:</label>
+        <input type="text" id="yearLevel" name="yearLevel" required>
+
+        <label for="favoriteFood">Favorite Food:</label>
+        <input type="text" id="favoriteFood" name="favoriteFood" required>
+
+        <label for="favoriteColor">Favorite Color:</label>
+        <input type="text" id="favoriteColor" name="favoriteColor" required>
+
+        
+        <button type="button" id="signupButton" onclick="signup()">Sign Up</button>
+
+        <div id="error-message"></div>
+    </form>
+</div>
+
+<script src="SignUp.js"></script>
+</body>
+</html>

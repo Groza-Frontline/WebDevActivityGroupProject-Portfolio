@@ -1,9 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(geogif2.gif);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background-color: #3e3d3e;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -24,12 +21,13 @@ body {
   font-size: 35px;
   position: center;
 }*/
-.geogif2{
-  position: absolute;
+
+.geonature {
+  position:absolute;
+  width: 100%;
   z-index: -1;
-  padding: 100%;
-  width:100%;
-  
+  padding: 120%;
+
 }
 
 .container {
